@@ -1,0 +1,32 @@
+{
+  "name": "mailnode",
+  "version": "1.5.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development ./node_modules/.bin/netlify-lambda serve test",
+    "build": "NODE_ENV=production ./node_modules/.bin/netlify-lambda build test"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ably": "^1.2.2",
+    "cheerio": "^1.0.0-rc.3",
+    "circular-json": "^0.5.9",
+    "compromise": "^13.3.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "htmlparser2": "^4.1.0",
+    "iplocation": "^6.1.0",
+    "lz-string": "^1.4.4",
+    "node-fetch": "^2.6.1",
+    "node-notifier": "^8.0.0",
+    "prompt": "^1.0.0",
+    "request": "^2.88.2",
+    "sanitize-html": "^1.27.3",
+    "stopword": "^1.0.1",
+    "wordpos": "^2.0.0"
+  }
+}
